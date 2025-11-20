@@ -1,0 +1,12 @@
+# Ambientes virtuais
+.venv/
+venv/
+
+# Arquivos de editor
+.vscode/
+.idea/
+
+# Sistemas
+__pycache__/
+*.pyc
+.DS_Store
