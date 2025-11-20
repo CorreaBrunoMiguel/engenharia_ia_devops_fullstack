@@ -1,0 +1,149 @@
+{
+  "curso_meta": {
+    "id": "engenharia_ia_devops_fullstack",
+    "nome": "Engenharia de IA para DevOps e Fullstack",
+    "descricao_curta": "Curso de IA focado em DevOps/fullstack: machine learning, deep learning e aplicações em produção, com prioridade em empregabilidade.",
+    "descricao_longa": "Curso projetado para Bruno, desenvolvedor com experiência em DevOps e fullstack, que deseja sair de uma compreensão superficial de IA para dominar machine learning clássico, fundamentos matemáticos aplicados, uso prático de redes neurais e modelos modernos, e integração disso tudo em projetos reais, com foco em empregabilidade. A trilha é dividida em um Núcleo, voltado para construir rapidamente competências úteis para disputar vagas até o início de 2026, e uma trilha de Aprofundamento, voltada para consolidar diferenciais em engenharia de dados, MLOps e aplicações fullstack com IA.",
+    "publico_alvo": [
+      "Bruno como aluno principal",
+      "profissional de DevOps/fullstack que deseja incorporar IA e ML ao perfil",
+      "alguem que ja programa em Python em nivel intermediario e quer usar isso em IA"
+    ],
+    "prioridades": {
+      "empregabilidade": "alta",
+      "dominio_tecnico": "alta",
+      "portfolio": "alta",
+      "fundacao_teorica": "media_alta"
+    },
+    "nivel_inicial": "devops_fullstack_com_python_intermediario",
+    "objetivo_geral": "Levar Bruno de uma compreensão superficial de IA a um nivel em que seja capaz de construir, avaliar e integrar modelos de IA/ML em sistemas reais, com projetos que sustentem candidaturas a vagas na area.",
+    "objetivos_especificos": [
+      "Dominar os conceitos e praticas centrais de machine learning classico (regressao, classificacao, validacao, metricas).",
+      "Relembrar e aplicar matematica e estatistica relevantes para IA (probabilidade, distribuicoes, gradiente, otimizacao) sempre ligadas a codigo.",
+      "Construir projetos de ML classico completos, versionados e documentados em repositorios GitHub.",
+      "Entender o funcionamento geral de redes neurais e utilizar modelos modernos (incluindo LLMs) em aplicacoes praticas.",
+      "Integrar IA em APIs e pequenos sistemas, com mentalidade de DevOps/MLOps.",
+      "Preparar um projeto integrador que demonstre capacidade de entregar solucao de ponta a ponta com IA."
+    ],
+    "restricoes_e_nao_negociaveis": [
+      "Evitar aulas excessivamente abstratas sem ligacao clara com aplicacao pratica.",
+      "Cada bloco teorico relevante deve ser acompanhado de exemplos em codigo ou exercicios.",
+      "Os projetos devem ser pensados desde o inicio com foco em portifolio e apresentacao para recrutadores.",
+      "Etapas importantes devem ser encerradas com entregaveis claros antes de avancar."
+    ],
+    "status": "planejado",
+    "tags": [
+      "ia",
+      "machine_learning",
+      "deep_learning",
+      "devops",
+      "fullstack",
+      "mlops",
+      "engenharia_de_dados",
+      "empregabilidade",
+      "portfolio"
+    ],
+    "trilhas": [
+      {
+        "id": "nucleo",
+        "nome": "Trilha Núcleo",
+        "descricao": "Parte do curso focada em construir rapidamente competencias essenciais em ML e IA pratica, visando empregabilidade ate o inicio de 2026.",
+        "prioridade": "alta"
+      },
+      {
+        "id": "aprofundamento",
+        "nome": "Trilha de Aprofundamento",
+        "descricao": "Parte do curso focada em consolidar diferenciais em engenharia de dados, MLOps e aplicacoes fullstack com IA, apos o dominio dos fundamentos.",
+        "prioridade": "media_alta"
+      }
+    ],
+    "materias": [
+      {
+        "id": "ml_fundamentos_para_dev_que_ja_programa",
+        "nome": "Fundamentos de ML para quem já programa",
+        "descricao": "Introdução focada e pratica a machine learning classico para quem ja domina o basico de programacao em Python.",
+        "trilha": "nucleo",
+        "status": "planejada",
+        "ordem": 1
+      },
+      {
+        "id": "estatistica_matematica_aplicada_ml",
+        "nome": "Estatística e matemática aplicada para ML",
+        "descricao": "Revisao e aplicacao de conceitos de probabilidade, estatistica e calculo diretamente conectados a problemas de ML.",
+        "trilha": "nucleo",
+        "status": "planejada",
+        "ordem": 2
+      },
+      {
+        "id": "projeto01_sistema_ml_classico",
+        "nome": "Projeto 1 – Sistema de ML clássico completo",
+        "descricao": "Projeto guiado para construir um sistema completo usando ML classico, com foco em dados reais simples e entrega em repositorio GitHub.",
+        "trilha": "nucleo",
+        "status": "planejada",
+        "ordem": 3
+      },
+      {
+        "id": "introducao_deep_learning_llms",
+        "nome": "Introdução a Deep Learning e LLMs na prática",
+        "descricao": "Conceitos basicos de redes neurais e uso pratico de modelos modernos, incluindo modelos pre-treinados e LLMs aplicados.",
+        "trilha": "nucleo",
+        "status": "planejada",
+        "ordem": 4
+      },
+      {
+        "id": "projeto02_aplicacao_ia_moderna",
+        "nome": "Projeto 2 – Aplicação simples usando IA moderna",
+        "descricao": "Construcao de uma aplicacao simples (ex: API ou pequeno sistema) que consome um modelo moderno de IA para resolver um problema concreto.",
+        "trilha": "nucleo",
+        "status": "planejada",
+        "ordem": 5
+      },
+      {
+        "id": "engenharia_dados_para_ml",
+        "nome": "Engenharia de dados para ML",
+        "descricao": "Fundamentos de engenharia de dados aplicada a ML: ingestao, transformacao, feature engineering e boas praticas.",
+        "trilha": "aprofundamento",
+        "status": "planejada",
+        "ordem": 6
+      },
+      {
+        "id": "mlops_para_devops",
+        "nome": "MLOps para DevOps",
+        "descricao": "Conexao entre DevOps e IA: versionamento de modelos, experiment tracking, deploy e automacao de pipelines de ML.",
+        "trilha": "aprofundamento",
+        "status": "planejada",
+        "ordem": 7
+      },
+      {
+        "id": "aplicacoes_fullstack_com_ia",
+        "nome": "Aplicações fullstack com IA",
+        "descricao": "Construcao de aplicacoes fullstack que integram front-end, back-end e servicos de IA em uma solucao unica.",
+        "trilha": "aprofundamento",
+        "status": "planejada",
+        "ordem": 8
+      },
+      {
+        "id": "projeto_integrador_plataforma_ia",
+        "nome": "Projeto Integrador – Plataforma com IA",
+        "descricao": "Projeto final que integra dados, modelos, back-end, possivel front-end e boas praticas de DevOps/MLOps em uma plataforma unica de IA.",
+        "trilha": "aprofundamento",
+        "status": "planejada",
+        "ordem": 9
+      }
+    ],
+    "projeto_integrador": {
+      "obrigatorio": true,
+      "descricao": "Projeto final que demonstra a capacidade de Bruno de entregar uma solucao de ponta a ponta usando IA, desde os dados ate o deploy.",
+      "status": "planejado"
+    },
+    "meta_tempo": {
+      "foco_nucleo_ate_inicio_2026": true,
+      "observacao": "A prioridade ate o inicio de 2026 e concluir a Trilha Núcleo com pelo menos um projeto forte publicado em portifolio."
+    },
+    "observacoes": [
+      "Curso projetado especificamente para Bruno como primeiro grande curso de IA no ecossistema ATHENA apos a revisao de diretrizes.",
+      "Detalhamento de cada materia em materias_meta e aulas sera feito em artefatos separados.",
+      "A criacao deste curso consumiu uma realidade focada em desenho; a execucao (aulas) deve ocorrer em realidades futuras, carregando este curso_meta como referencia."
+    ]
+  }
+}
