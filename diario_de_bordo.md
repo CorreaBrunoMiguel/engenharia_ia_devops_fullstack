@@ -17,3 +17,21 @@
 **Dúvidas / pontos para revisar:**
 
 - (exemplo) Ver depois: como organizar melhor as branches quando começar os projetos.
+
+## [2025-11-20] – Aula 1: Primeiro modelo de ML
+
+**O que fiz hoje:**
+
+- Criei a estrutura da matéria 1.
+- Treinei um modelo de classificação usando o dataset Iris.
+- Avaliei o modelo com acurácia e relatório de classificação.
+
+**Insights:**
+
+- (exemplo) Percebi na prática a diferença entre codar regras e treinar um modelo.
+- (exemplo) A ideia de separar treino e teste lembra muito “não usar os mesmos dados para validar a mesma coisa que treinei”.
+
+**Dúvidas / próximos passos:**
+
+- (exemplo) Entender melhor o que significam precisão/recall/F1.
+- (exemplo) Ver como isso se conectaria com um caso mais “de negócio”, tipo churn, fraude etc.
