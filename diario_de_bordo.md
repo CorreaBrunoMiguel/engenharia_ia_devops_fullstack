@@ -35,3 +35,23 @@
 
 - (exemplo) Entender melhor o que significam precisão/recall/F1.
 - (exemplo) Ver como isso se conectaria com um caso mais “de negócio”, tipo churn, fraude etc.
+
+## [2025-11-20] – Aula 2: Métricas e Experimentos
+
+**O que fiz hoje:**
+
+- Copiei o código da Aula 1 para a Aula 2.
+- Variei o número de árvores na Random Forest e vi o impacto na acurácia.
+- Comparei desempenho no treino e no teste.
+- Testei tamanhos diferentes de conjunto de teste.
+
+**O que entendi melhor:**
+
+- Que acurácia sozinha não conta a história completa.
+- Que avaliar só no treino é enganar a si mesmo.
+- Que ML é um processo de experimentar e observar.
+
+**Dúvidas / pontos para revisar depois:**
+
+- (exemplo) Entender mais a fundo diferença entre precisão, recall e F1.
+- (exemplo) Ver esses conceitos em um problema mais próximo de negócio.
